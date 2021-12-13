@@ -1,0 +1,15 @@
+h1{
+    font-size: 25px;
+    color:crimson;
+}
+h2{
+    font-size: 18px;
+    color:rgb(90, 55, 11);
+}
+
+button{
+    text-align: center;
+    font-size: 20px;
+    border-width: 5px;
+
+}

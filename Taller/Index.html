@@ -3,29 +3,36 @@
 <head>
     <title> Programacion Hipermedial</title>
     <link rel="stylesheet" type="text/css" href="estilos.css"/>
+    <script type="text/javascript" src="scripts.js"></script>
 </head>
-<body>
+<body onload="cargarElemento()">
     <header>
         <h1>PELICULA</h1>
         </header>
     <from method="POST" action="/">
     <fieldset> 
-        <legend>REGRISTRO DE PELICULA</legend>
+    <legend>REGRISTRO DE PELICULA</legend>
     <main>
         <p>
-        <label> Titulo: </label> 
-    <input type="text" value=""/> 
+      <h2><label> Titulo: </label> 
+        <input type="text" id ="texto" value=""/> 
+    </h2>  
+    
 </p>
     <p>
-    <label> Género: </label> 
+   <h2><label> Género: </label> 
     <input type="text" value=""/>
+</h2> 
+    
 </p>
     <p>
-        <label> Descripción: </label> 
-        <textarea></textarea>
-</p>
-             <button >Guardar</button>
-            </main>         
+       <h2><label> Descripción: </label>
+         <input type="text" value=""/>
+    </h2>   
+        </p>
+             <button onclick="agregarElemento()" style="background-color: rgb(127, 231, 179);" >GUARDAR</button>
+             <div id="container"></div>    
+</main>     
 </fieldset>
 </from>
 <header>
@@ -35,7 +42,7 @@
 
 
     <footer>
-        Copyright &copy; Bryan Vargas López. 
+        Copyright &copy; Bryan Vargas López.bvargasl@est.ups.edu.ec
         </footer>
 </body>
 </html>
