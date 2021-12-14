@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Programacion Hipermedial</title>
+        <link rel="stylesheet" type="text/css" href="estilos.css" />
+        <script type="text/javascript" src="scripts.js"></script>
+  <style>
+
+  </style>
+    </head>
+    <body>
+        <section class="container">
+            <div class="item header">
+                <h1>PELICULA</h1>
+                <h2>REGISTRO DE PELICULA</h2>
+            </div>
+            <div class="item content">
+                <form >
+                    <ul class="Formulario">
+                        <li class="formulario-fila">
+                        <label for="titulo"> Titulo: </label>
+                        <input type="text" id="titulo" value=""/>
+                        </li>
+                        <li class="formulario-fila">
+                        <label for="descripcion"> Descripción: </label>
+                        <input type="text" id="descripcion" value=""/> 
+                        </li>
+                        <li class="formulario-fila">
+                        <label for="genero"> Generó: </label>
+                        <input type="text" id="genero" value=""/>   
+                        </li>
+                        <li class="formulario-fila">
+                        <button type="button" onclick="guardar()">GUARDAR</button>
+                        </li>
+                    </ul>
+
+                </form>
+                <div class="formulario" id="palabras">
+                    <table style="width: 100%;">
+                            <thead>
+                                <tr>
+                                    <th>TITULO</th>
+                                    <th>DESCRIPCION</th>
+                                    <th>GENERO</th>
+                                </tr>
+                            </thead>
+                            <tbody id="tablita" style="text-align: center;">
+                
+                            </tbody>
+                        </table>
+                </div>
+            </div>
+            <div class="item footer">
+                BRYAN VARGAS &COPY; 2021
+            </div>
+        </section>
+    </body>
+</html>
