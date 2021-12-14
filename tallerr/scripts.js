@@ -8,4 +8,8 @@ function guardar(){
    	btn.innerHTML=fila;
     document.getElementById("tablita").appendChild(btn);
 
+    document.getElementById("titulo").value ="";
+    document.getElementById("descripcion").value = "";
+    document.getElementById("genero").value = "";
+    document.getElementById("titulo").focus();
 }

@@ -76,6 +76,9 @@ table,th,td{
   th{
       text-align: center;
   }
-  table{
+  th{
       background-color: whitesmoke;
+  }
+  td{
+    background-color: rgb(235, 210, 240);
   }
